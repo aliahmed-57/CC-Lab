@@ -1,0 +1,18 @@
+In C#, Regular Expression is a pattern which is used to parse and check whether the given input text is matching with the given pattern or not. In C#, Regular Expressions are generally termed as C# Regex. The .Net Framework provides a regular expression engine that allows the pattern matching. Patterns may consist of any character literals, operators or constructors. 
+
+C# provides a class termed as Regex which can be found in System.Text.RegularExpression namespace. This class will perform two things:
+
+* Parsing the inputting text for the regular expression pattern.
+* Identify the regular expression pattern in the given text.
+
+In C#, the Regex class provides methods and properties to work with regular expressions. Here are some key features and functionalities of C# regex:
+
+	1) "Pattern matching": C# regex allows you to define patterns using special characters and constructs to match specific sequences of characters within a string.
+	
+	2) "Searching and replacing": You can use regex to search for patterns within a string and replace them with other text or manipulate the matched portions of the string.
+
+	3) "Validation": Regex is commonly used for validating user input. You can define a pattern that input must match, and then check if the input string conforms to that pattern.
+
+	4) "Splitting strings": Regex can be used to split strings based on a specified pattern. For example, using regex, you can split a comma-separated list of values into individual elements.
+
+	5) "Capturing groups": Regex allows you to define capturing groups, which are portions of the pattern enclosed in parentheses. These groups can be used to extract specific parts of a matched string.
